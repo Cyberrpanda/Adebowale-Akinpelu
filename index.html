@@ -4,329 +4,249 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ADEBOWALE AKINPELU – Business Analyst</title>
-  <!-- Tailwind via CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Font Awesome -->
+  <!-- Font Awesome for icons and logos -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-gray-900 text-gray-200 font-sans antialiased">
-
+<body>
   <!-- HEADER -->
-  <header class="bg-gray-800 border-b border-green-600 sticky top-0 z-50">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-      <div class="text-2xl font-bold text-green-400">ADEBOWALE <span class="text-white">AKINPELU</span></div>
-      <nav class="space-x-6 text-sm hidden md:block">
-        <a href="#hero" class="hover:text-green-400 transition">Home</a>
-        <a href="#competencies" class="hover:text-green-400 transition">Core Competencies</a>
-        <a href="#skills" class="hover:text-green-400 transition">Skills</a>
-        <a href="#experience" class="hover:text-green-400 transition">Experience</a>
-        <a href="#education-cert" class="hover:text-green-400 transition">Education</a>
-        <a href="#projects" class="hover:text-green-400 transition">Projects</a>
+  <header>
+    <div class="container header-container">
+      <div class="logo">ADE<span>BOWALE</span></div>
+      <nav class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#competencies">Competencies</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
       </nav>
+      <div class="mobile-menu-toggle"><i class="fas fa-bars"></i></div>
     </div>
   </header>
 
-  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-
+  <main>
     <!-- HERO SECTION -->
-    <section id="hero" class="fade-section py-12 flex flex-col md:flex-row items-center gap-8 md:gap-12 border-b border-gray-700">
-      <!-- Left: Text -->
-      <div class="flex-1 text-center md:text-left">
-        <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-2">
-          ADEBOWALE <span class="text-green-400">AKINPELU</span>
-        </h1>
-        <p class="text-xl text-gray-400 mb-4">Business Analyst</p>
-        <div class="flex flex-wrap justify-center md:justify-start gap-4 text-sm text-gray-400 mb-6">
-          <span><i class="fas fa-map-marker-alt text-green-400 mr-1"></i> Yorkshire, UK</span>
-          <span><i class="fas fa-phone-alt text-green-400 mr-1"></i> 07927609474</span>
-          <span><i class="fas fa-envelope text-green-400 mr-1"></i> dkpwalk@gmail.com</span>
+    <section id="hero" class="hero section">
+      <div class="container hero-container">
+        <div class="hero-text">
+          <h1>ADEBOWALE <span class="blue-text">AKINPELU</span></h1>
+          <p class="subtitle">Business Analyst</p>
+          <div class="contact-info">
+            <span><i class="fas fa-map-marker-alt"></i> Tonbridge, UK</span>
+            <span><i class="fas fa-phone-alt"></i> 07927609474</span>
+            <span><i class="fas fa-envelope"></i> dkpwalk@gmail.com</span>
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/adebowale-akinpelu" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            
+          </div>
+          <div class="profile-box">
+            <h3>PROFESSIONAL PROFILE</h3>
+            <p>Strategic and experienced Business Analyst with over 4 years of cross-functional experience in digital transformation, process engineering, and project delivery. Expert in bridging the gap between business stakeholders and technical teams within Agile environments. Proven track record in supporting web and mobile application development through robust requirement elicitation, BPMN process modeling, and UAT coordination. Currently leveraging AI-enabled zero/low-code tools to automate workflows and drive operational efficiency for a global technology firm.</p>
+          </div>
         </div>
-        <div class="flex flex-wrap justify-center md:justify-start gap-4 mb-6">
-          <a href="https://www.linkedin.com/in/adebowale-akinpelu" target="_blank" class="text-green-400 hover:text-green-300 transition"><i class="fab fa-linkedin fa-lg mr-1"></i> LinkedIn</a>
-        </div>
-        <div class="bg-gray-800 p-6 rounded-2xl border border-green-600 text-left">
-          <h3 class="text-lg font-semibold text-green-400 mb-2">PROFESSIONAL PROFILE</h3>
-          <p class="text-gray-300 leading-relaxed">Strategic and experienced Business Analyst with over 4 years of cross-functional experience in digital transformation, process engineering, and project delivery. Expert in bridging the gap between business stakeholders and technical teams within Agile environments. Proven track record in supporting web and mobile application development through robust requirement elicitation, BPMN process modeling, and UAT coordination. Currently leveraging AI-enabled zero/low-code tools to automate workflows and drive operational efficiency for a global technology firm.</p>
-        </div>
-      </div>
-      <!-- Right: Image placeholder -->
-      <div class="flex-shrink-0 w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-green-500 shadow-xl bg-gray-700 flex items-center justify-center">
-        <img src="./profile.jpeg" alt="Adebowale Akinpelu" class="w-full h-full object-cover">
+        <div class="hero-image">
+          <div class="image-placeholder">
+            <img src="./profile.jpeg" alt="Adebowale Akinpelu">
+          </div>
+</div>
       </div>
     </section>
 
     <!-- CORE COMPETENCIES -->
-    <section id="competencies" class="fade-section py-16">
-      <h2 class="section-title"><span class="text-white">Core</span> <span class="text-green-400">Competencies</span></h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <!-- Competency 1 -->
-        <div class="competency-card">
-          <i class="fas fa-clipboard-list fa-3x text-green-400 mb-4"></i>
-          <h5 class="font-semibold text-white">Requirements Engineering & User Stories</h5>
-          <p class="text-sm text-gray-400 mt-2">Elicitation, JAD, backlog management, INVEST</p>
-        </div>
-        <!-- Competency 2 -->
-        <div class="competency-card">
-          <i class="fas fa-project-diagram fa-3x text-green-400 mb-4"></i>
-          <h5 class="font-semibold text-white">Process Optimization & BPMN 2.0</h5>
-          <p class="text-sm text-gray-400 mt-2">As-is/to-be mapping, gap analysis, SDLC</p>
-        </div>
-        <!-- Competency 3 -->
-        <div class="competency-card">
-          <i class="fas fa-mobile-alt fa-3x text-green-400 mb-4"></i>
-          <h5 class="font-semibold text-white">Digital Product Delivery</h5>
-          <p class="text-sm text-gray-400 mt-2">Web/mobile dev support, UAT, release management</p>
-        </div>
-        <!-- Competency 4 -->
-        <div class="competency-card">
-          <i class="fas fa-tools fa-3x text-green-400 mb-4"></i>
-          <h5 class="font-semibold text-white">Technical Proficiency</h5>
-          <p class="text-sm text-gray-400 mt-2">Jira, Confluence, SQL, Figma, Power BI, Visio</p>
-        </div>
-        <!-- Competency 5 -->
-        <div class="competency-card">
-          <i class="fas fa-users fa-3x text-green-400 mb-4"></i>
-          <h5 class="font-semibold text-white">Stakeholder Management</h5>
-          <p class="text-sm text-gray-400 mt-2">Executive reporting, conflict resolution, vendor relations</p>
-        </div>
-        <!-- Competency 6 -->
-        <div class="competency-card">
-          <i class="fas fa-sync-alt fa-3x text-green-400 mb-4"></i>
-          <h5 class="font-semibold text-white">Agile & Scrum Methodologies</h5>
-          <p class="text-sm text-gray-400 mt-2">Scrum master, sprint planning, retrospectives</p>
-        </div>
-        <!-- Competency 7 -->
-        <div class="competency-card">
-          <i class="fas fa-chart-pie fa-3x text-green-400 mb-4"></i>
-          <h5 class="font-semibold text-white">Data Analysis & Reporting</h5>
-          <p class="text-sm text-gray-400 mt-2">Power BI dashboards, Excel, SWOT/PESTLE</p>
-        </div>
-        <!-- Competency 8 -->
-        <div class="competency-card">
-          <i class="fas fa-exchange-alt fa-3x text-green-400 mb-4"></i>
-          <h5 class="font-semibold text-white">Change & Continuous Improvement</h5>
-          <p class="text-sm text-gray-400 mt-2">Workflow automation, zero-code tools, Kaizen</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- SKILLS SECTION (tags) -->
-    <section id="skills" class="fade-section py-16 bg-gray-800 rounded-3xl p-8 border border-gray-700">
-      <h2 class="section-title"><span class="text-white">Technical</span> <span class="text-green-400">Skills</span></h2>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-        <!-- Tools Category -->
-        <div>
-          <div class="flex items-center mb-4">
-            <i class="fas fa-tools text-green-400 fa-2x mr-3"></i>
-            <h4 class="text-xl font-bold text-green-400">Tools</h4>
+    <section id="competencies" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Core <span class="blue-text">Competencies</span></h2>
+        <div class="competencies-grid">
+          <div class="competency-card">
+            <i class="fas fa-clipboard-list fa-3x"></i>
+            <h4>Requirements Engineering</h4>
+            <p>Elicitation (Workshops, JAD, Interviews), User Stories, Acceptance Criteria, Backlog Management</p>
           </div>
-          <div>
-            <span class="skill-tag">Jira</span>
-            <span class="skill-tag">Confluence</span>
-            <span class="skill-tag">MS Visio</span>
-            <span class="skill-tag">Draw.io</span>
-            <span class="skill-tag">Lucidchart</span>
-            <span class="skill-tag">Balsamiq</span>
-            <span class="skill-tag">Figma</span>
-            <span class="skill-tag">Power BI</span>
-            <span class="skill-tag">Excel</span>
-            <span class="skill-tag">Trello</span>
-            <span class="skill-tag">Primavera P6</span>
+          <div class="competency-card">
+            <i class="fas fa-project-diagram fa-3x"></i>
+            <h4>Process Optimization</h4>
+            <p>Current/Future State Mapping, Gap Analysis, BPMN 2.0, SDLC, Agile (Scrum/Kanban)</p>
           </div>
-        </div>
-        <!-- Documentation Category -->
-        <div>
-          <div class="flex items-center mb-4">
-            <i class="fas fa-file-alt text-green-400 fa-2x mr-3"></i>
-            <h4 class="text-xl font-bold text-green-400">Documentation</h4>
+          <div class="competency-card">
+            <i class="fas fa-mobile-alt fa-3x"></i>
+            <h4>Digital Product Delivery</h4>
+            <p>Website & Mobile App Development Support, UAT Planning, Release Management</p>
           </div>
-          <div>
-            <span class="skill-tag">BRD</span>
-            <span class="skill-tag">FRD</span>
-            <span class="skill-tag">SRS</span>
-            <span class="skill-tag">User Stories</span>
-            <span class="skill-tag">Use Cases</span>
-            <span class="skill-tag">RTM</span>
-            <span class="skill-tag">Business Case</span>
+          <div class="competency-card">
+            <i class="fas fa-tools fa-3x"></i>
+            <h4>Technical Tools</h4>
+            <p>Jira, Confluence, SQL, MS Visio, Draw.io, Lucidchart, Balsamiq, Figma, WooCommerce</p>
           </div>
-        </div>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <!-- Domains / Platforms -->
-        <div>
-          <div class="flex items-center mb-4">
-            <i class="fas fa-cloud text-green-400 fa-2x mr-3"></i>
-            <h4 class="text-xl font-bold text-green-400">Domains & Platforms</h4>
-          </div>
-          <div>
-            <span class="skill-tag">WooCommerce</span>
-            <span class="skill-tag">Dokan</span>
-            <span class="skill-tag">Oracle ERP</span>
-            <span class="skill-tag">Microsoft Power Platform</span>
-            <span class="skill-tag">Custom IMS</span>
-          </div>
-        </div>
-        <!-- Methodologies -->
-        <div>
-          <div class="flex items-center mb-4">
-            <i class="fas fa-code-branch text-green-400 fa-2x mr-3"></i>
-            <h4 class="text-xl font-bold text-green-400">Methodologies</h4>
-          </div>
-          <div>
-            <span class="skill-tag">Agile</span>
-            <span class="skill-tag">Scrum</span>
-            <span class="skill-tag">Kanban</span>
-            <span class="skill-tag">Waterfall</span>
-            <span class="skill-tag">Prince2</span>
-            <span class="skill-tag">SDLC</span>
+          <div class="competency-card">
+            <i class="fas fa-users fa-3x"></i>
+            <h4>Stakeholder Management</h4>
+            <p>Executive Reporting, Conflict Resolution, Change Management, Vendor Relations</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- PROFESSIONAL EXPERIENCE -->
-    <section id="experience" class="fade-section py-16">
-      <h2 class="section-title"><span class="text-white">Professional</span> <span class="text-green-400">Experience</span></h2>
-      <div class="space-y-6">
-        <!-- Deckers Place Ltd -->
-        <div class="exp-card">
-          <div class="flex flex-wrap items-start justify-between mb-2">
-            <h3 class="text-xl font-bold text-white">Deckers Place Ltd <span class="text-gray-400 text-base font-normal">(UK Subsidiary of Transient Services Ltd)</span></h3>
-            <span class="bg-green-900 text-green-300 text-sm font-semibold px-3 py-1 rounded-full">Sept 2024 – Present</span>
-          </div>
-          <p class="text-lg text-green-400 font-medium mb-3">Business Analyst / Product Delivery Lead</p>
-          <ul class="list-disc list-inside text-gray-300 space-y-2">
-            <li><span class="font-semibold text-white">Agile Delivery:</span> Functioning as a hybrid BA/Scrum Master, facilitating ceremonies for three concurrent digital workstreams.</li>
-            <li><span class="font-semibold text-white">Requirement Management:</span> Lead elicitation sessions to translate business goals into high-quality User Stories.</li>
-            <li><span class="font-semibold text-white">Backlog Grooming:</span> Facilitated regular backlog refinement sessions with stakeholders and development teams.</li>
-            <li><span class="font-semibold text-white">Zero-Code Automation:</span> Designing AI-assisted workflow automations using WooCommerce, reducing manual data entry by 20%.</li>
-            <li><span class="font-semibold text-white">UAT Oversight:</span> Managing end-to-end UAT for a new customer service portal, ensuring 100% alignment.</li>
-            <li><span class="font-semibold text-white">Product Strategy:</span> Collaborating with UX/UI designers in Figma.</li>
-          </ul>
-        </div>
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Professional <span class="blue-text">Experience</span></h2>
+        <div class="experience-list">
 
-        <!-- Transient Services Ltd -->
-        <div class="exp-card">
-          <div class="flex flex-wrap items-start justify-between mb-2">
-            <h3 class="text-xl font-bold text-white">Transient Services Ltd <span class="text-gray-400 text-base font-normal">(Canada – Remote)</span></h3>
-            <span class="bg-green-900 text-green-300 text-sm font-semibold px-3 py-1 rounded-full">March 2023 – August 2024</span>
-          </div>
-          <p class="text-lg text-green-400 font-medium mb-3">Business Analyst</p>
-          <ul class="list-disc list-inside text-gray-300 space-y-2">
-            <li><span class="font-semibold text-white">Digital Transformation:</span> Supported development of a customer-facing platform, managing backlog and gap analysis.</li>
-            <li><span class="font-semibold text-white">Process Modeling:</span> Developed BPMN 2.0 diagrams that identified bottlenecks, leading to 15% throughput improvement.</li>
-            <li><span class="font-semibold text-white">Documentation:</span> Authored Business Case, BRD, FRD as single source of truth for distributed team.</li>
-          </ul>
-        </div>
-
-        <!-- BAM Construction -->
-        <div class="exp-card">
-          <div class="flex flex-wrap items-start justify-between mb-2">
-            <h3 class="text-xl font-bold text-white">BAM Construction (UK)</h3>
-            <span class="bg-green-900 text-green-300 text-sm font-semibold px-3 py-1 rounded-full">Jan 2024 – Nov 2024</span>
-          </div>
-          <p class="text-lg text-green-400 font-medium mb-3">Project Business Analyst (Contract)</p>
-          <ul class="list-disc list-inside text-gray-300 space-y-2">
-            <li><span class="font-semibold text-white">Operational Analysis:</span> Audited site reporting workflows, implemented digital framework increasing data accuracy by 30%.</li>
-            <li><span class="font-semibold text-white">Data Visualization:</span> Built Power BI dashboards for real-time budget reallocation.</li>
-            <li><span class="font-semibold text-white">Risk Mitigation:</span> Documented risks and contingency plans maintaining 95% on-time delivery.</li>
-          </ul>
-        </div>
-
-        <!-- MC&T (combined roles) -->
-        <div class="exp-card">
-          <div class="flex flex-wrap items-start justify-between mb-2">
-            <h3 class="text-xl font-bold text-white">MC&T</h3>
-            <span class="bg-green-900 text-green-300 text-sm font-semibold px-3 py-1 rounded-full">Jan 2016 – Aug 2022</span>
-          </div>
-          <p class="text-lg text-green-400 font-medium mb-3">Assistant Construction Manager / Project BA</p>
-          <ul class="list-disc list-inside text-gray-300 space-y-2">
-            <li><span class="font-semibold text-white">Workflow Engineering:</span> Reframed legacy manual reporting into automated digital tracking, reducing admin overhead by 40%.</li>
-            <li><span class="font-semibold text-white">Stakeholder Liaison:</span> Interface between local authorities, engineering vendors, and internal teams.</li>
-            <li><span class="font-semibold text-white">Risk Mitigation:</span> Used SWOT and PESTLE analysis to identify project risks, documenting contingency plans that maintained a 95% on-time delivery rate.</li>
-          </ul>
-          <p class="text-lg text-green-400 font-medium mt-4 mb-2">Project Engineer / Junior Analyst <span class="text-gray-400 text-base">(June 2014 – Dec 2015)</span></p>
-          <ul class="list-disc list-inside text-gray-300 space-y-1">
-            <li>Coordinated technical design requirements and maintained the project RAID log.</li>
-            <li>Assisted in project design coordination and implementation.</li>
-            <li>Monitored site progress and prepared technical reports.</li>
-            <li>Worked with cross-functional teams to ensure project milestones were met.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- KEY PROJECTS -->
-    <section id="projects" class="fade-section py-16">
-      <h2 class="section-title"><span class="text-white">Key</span> <span class="text-green-400">Projects</span></h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="project-card">
-          <i class="fas fa-dumbbell text-green-400 fa-2x mb-3"></i>
-          <h3 class="text-xl font-bold text-white mb-2">Fitness Mobile Application</h3>
-          <p class="text-gray-400 text-sm">Business Analyst / Scrum Lead. Led end-to-end design and implementation of a functional fitness mobile application using zero-code tools.</p>
-        </div>
-        <div class="project-card">
-          <i class="fas fa-headset text-green-400 fa-2x mb-3"></i>
-          <h3 class="text-xl font-bold text-white mb-2">Customer Digital Service Platform</h3>
-          <p class="text-gray-400 text-sm">Business Analyst / Scrum Lead. End-to-end delivery of web-based portal from discovery through deployment.</p>
-        </div>
-        <div class="project-card">
-          <i class="fas fa-globe text-green-400 fa-2x mb-3"></i>
-          <h3 class="text-xl font-bold text-white mb-2">Company Website & Mobile App Revamp</h3>
-          <p class="text-gray-400 text-sm">Business Analyst / Low-Code Developer. Complete redesign using zero-code tools, concept to deployment.</p>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- EDUCATION & CERTIFICATIONS -->
-    <section id="education-cert" class="fade-section py-16">
-      <h2 class="section-title"><span class="text-white">Education &</span> <span class="text-green-400">Certifications</span></h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <!-- Education -->
-        <div>
-          <h3 class="text-2xl font-bold text-white mb-4 flex items-center"><i class="fas fa-graduation-cap text-green-400 mr-2"></i>Education</h3>
-          <div class="edu-card p-5">
-            <p class="font-semibold text-white">MSc. International Project Management</p>
-            <p class="text-green-400">York St. John University, UK | 2024</p>
-          </div>
-          <div class="edu-card p-5 mt-4">
-            <p class="font-semibold text-white">Level 7 Diploma in Construction Project Management (CPD)</p>
-            <p class="text-green-400">Inspired London College | 2024</p>
-          </div>
-        </div>
-
-
-        <!-- Certifications-->
-        <div>
-          <h3 class="text-2xl font-bold text-white mb-4 flex items-center"><i class="fas fa-certificate text-green-400 mr-2"></i>Certifications</h3>
-          <div class="cert-card p-5 mb-4">
-            <h4 class="font-semibold text-white mb-2">Certifications</h4>
-            <ul class="list-disc list-inside text-gray-300 space-y-1">
-              <li>Google Data Analytics Professional</li>
-              <li>AI-Enabled Automation (Zero-Code) – In Progress</li>
-              <li>Microsoft Certified Power Platform (In Progress)</li>
-              <li>Primavera P6 Project Planning (Udemy Certified)</li>
-              <li>Certified Business Analyst Professional (In Progress)</li>
+          <div class="exp-card">
+            <div class="exp-header">
+              <h3>Deke's Place Ltd <span>(UK Subsidiary of Trantiers Services Ltd)</span></h3>
+              <span class="exp-date">Sept 2024 – Present</span>
+            </div>
+            <p class="exp-role">Business Analyst / Product Delivery Lead</p>
+            <ul>
+              <li><strong>Agile Delivery:</strong> Functioning as a hybrid BA/Scrum Master, facilitating ceremonies for three concurrent digital workstreams.</li>
+              <li><strong>Requirement Management:</strong> Lead elicitation sessions to translate business goals into high-quality User Stories.</li>
+              <li><strong>Backlog Grooming:</strong> Facilitated regular backlog refinement sessions with stakeholders and development teams.</li>
+              <li><strong>Zero-Code Automation:</strong> Designing AI-assisted workflow automations using WooCommerce, resulting in a 20% reduction in manual data entry tasks.</li>
+              <li><strong>UAT Oversight:</strong> Managing end-to-end UAT for a new customer service portal, ensuring 100% alignment.</li>
+              <li><strong>Product Strategy:</strong> Collaborating with UX/UI designers in Figma.</li>
             </ul>
           </div>
+
+          <div class="exp-card">
+            <div class="exp-header">
+              <h3>Trantiers Services Ltd <span>(Canada – Remote)</span></h3>
+              <span class="exp-date">March 2023 – August 2024</span>
+            </div>
+            <p class="exp-role">Business Analyst</p>
+            <ul>
+              <li><strong>Digital Transformation:</strong> Supported development of a customer-facing platform, managing backlog and gap analysis.</li>
+              <li><strong>Process Modeling:</strong> Developed BPMN 2.0 diagrams that identified bottlenecks, leading to 15% throughput improvement.</li>
+              <li><strong>Documentation:</strong> Authored Business Case, BRD, FRD as single source of truth for distributed team.</li>
+            </ul>
+          </div>
+
+          <div class="exp-card">
+            <div class="exp-header">
+              <h3>CALA HOMES (UK)</h3>
+              <span class="exp-date">Jan 2024 – Nov 2024</span>
+            </div>
+            <p class="exp-role">Project Business Analyst (Contract)</p>
+            <ul>
+              <li><strong>Operational Analysis:</strong> Audited site reporting workflows, implemented digital framework increasing data accuracy by 30%.</li>
+              <li><strong>Data Visualization:</strong> Built Power BI dashboards for real-time budget reallocation.</li>
+              <li><strong>Process Documentation:</strong> Documented operational procedures and safety workflows.</li>
+              <li><strong>Risk Mitigation:</strong> Identify, analyze and document project risks and contingency plans that maintained a 95% on-time delivery rate.</li>
+            </ul>
+          </div>
+
+          <div class="exp-card">
+            <div class="exp-header">
+              <h3>MC&T</h3>
+              <span class="exp-date">Jan 2016 – Aug 2022</span>
+            </div>
+            <p class="exp-role">Assistant Construction Manager / Project BA</p>
+            <ul>
+              <li><strong>Workflow Engineering:</strong> Reframed legacy manual reporting into automated digital tracking, reducing admin overhead by 40%.</li>
+              <li><strong>Stakeholder Liaison:</strong> Interface between local authorities, engineering vendors, and internal teams.</li>
+              <li><strong>Risk Mitigation:</strong> Utilized SWOT and PESTLE analysis to identify project risks, documenting contingency plans that maintained a 95% on-time delivery rate.</li>
+            </ul>
+            <div class="exp-subrole">
+              <p class="exp-role">Project Engineer / Junior Analyst <span>June 2014 – Dec 2015</span></p>
+              <ul>
+                <li>Coordinated technical design requirements and maintained the project RAID log.</li>
+                <li>Assisted in project design coordination and implementation.</li>
+                <li>Monitored site progress and prepared technical reports.</li>
+                <li>Worked with cross-functional teams to ensure project milestones were met.</li>
+              </ul>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
 
-    
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <section id="education" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Education & <span class="blue-text">Certifications</span></h2>
+        <div class="edu-cert-grid">
+          <div class="edu-card">
+            <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+            <div class="edu-item">
+              <p class="edu-title">MSc. International Project Management with Professional Experience</p>
+              <p class="edu-meta">York St. John University, UK | 2022-2024; Enterprise Academy Leadership Programme (Finalist)</p>
+            </div>
+            <div class="edu-item">
+              <p class="edu-title">Level 7 Diploma in Construction Project Management (CPD)</p>
+              <p class="edu-meta">Inspired London College | 2024</p>
+            </div>
+          </div>
+          <div class="cert-card">
+            <h3><i class="fas fa-certificate"></i> Certifications & Skills</h3>
+            <div class="cert-item">
+              <p class="cert-title">Certifications</p>
+              <ul>
+                <li>Google Data Analytics Professional</li>
+                <li>AI-Enabled Automation (Zero-Code) – In Progress</li>
+                <li>Microsoft Certified Power Platform (In Progress)</li>
+                <li>Primavera P6 Project Planning (Udemy Certified)</li>
+                <li>Certified Business Analyst Professional (In Progress)</li>
+              </ul>
+            </div>
+            <div class="cert-item">
+              <p class="cert-title">Software</p>
+              <p>Jira, Confluence, MS Visio, MS Project, Power BI, Excel (Advanced), Balsamiq, Figma, Trello</p>
+            </div>
+            <div class="cert-item">
+              <p class="cert-title">Methodologies</p>
+              <p>Agile, Waterfall, Prince2, Scrum</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Key <span class="blue-text">Projects</span></h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <i class="fas fa-dumbbell fa-3x"></i>
+            <h3>Fitness Mobile Application</h3>
+            <p class="project-role">Business Analyst / Scrum Lead</p>
+            <p>Led end-to-end design and implementation using zero-code tools, from requirements to delivery.</p>
+          </div>
+          <div class="project-card">
+            <i class="fas fa-headset fa-3x"></i>
+            <h3>Customer Digital Service Platform</h3>
+            <p class="project-role">Business Analyst / Scrum Lead</p>
+            <p>End-to-end delivery of web-based portal from discovery through deployment.</p>
+          </div>
+          <div class="project-card">
+            <i class="fas fa-globe fa-3x"></i>
+            <h3>Company Website & Mobile App Revamp</h3>
+            <p class="project-role">Business Analyst / Low-Code Developer</p>
+            <p>Complete redesign using zero-code tools, concept to deployment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- FOOTER -->
-  <footer class="bg-gray-800 border-t border-green-600 py-6 text-center text-gray-400 text-sm">
-    <p>© 2026 ADEBOWALE AKINPELU – All rights Reserved. </p>
+  <footer>
+    <div class="container footer-container">
+      <p>© 2026 ADEBOWALE AKINPELU – Business Analyst Portfolio. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#competencies">Competencies</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+      </div>
+    </div>
   </footer>
 
+  <!-- JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
