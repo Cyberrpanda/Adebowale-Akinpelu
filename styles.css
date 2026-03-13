@@ -245,6 +245,39 @@ header {
   color: #555;
 }
 
+/* Skill tags for Technical Skills section */
+.skill-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.skill-item {
+  background-color: #e6f0fa;      /* Light blue background */
+  color: #014284;                  /* Dark blue text */
+  padding: 0.4rem 1rem;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.skill-item:hover {
+  background-color: #014284;       /* Dark blue background on hover */
+  color: #fff;                      /* White text */
+  border-color: #014284;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(1,66,132,0.2);
+}
+
+/* Optional: adjust card padding if needed */
+.competency-card .skill-tags-container {
+  margin-top: 0.75rem;
+}
+
 /* ===== EXPERIENCE ===== */
 .experience-list {
   display: flex;
